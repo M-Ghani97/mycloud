@@ -94,5 +94,5 @@
         src: "{{item.src}}"
         dest: "{{item.dest}}"
   loop:
-        - { src: '~/Fyp/fyp-ansible/roles/keystone/files/admin-openrc', dest: '~/admin-openrc' }
-        - { src: '~/Fyp/fyp-ansible/roles/keystone/files/demo-openrc', dest: '~/demo-openrc' }
+        - { src: '/roles/keystone/files/admin-openrc', dest: '~/admin-openrc' }
+        - { src: '/roles/keystone/files/demo-openrc', dest: '~/demo-openrc' }
